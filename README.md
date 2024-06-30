@@ -1,5 +1,1 @@
-#test
-njjngr 
-rfgkjr 
-g rkjn rg
-grj n
+https://yushkevichp.github.io/rsschool-cv/cv,
