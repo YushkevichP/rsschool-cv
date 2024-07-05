@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    background-image: url(../rsschool-cv/assets/img/avatar-svgrepo-com.svg);
+}
+
+h1 {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+img {
+    width: 410px;
+    height: 410px;
+}
+
+header {
+    background-color: blueviolet;
+    height: 100px;
+    border: 10px solid palevioletred;
+}
+
+main {
+    background-color: yellow;
+    border: 10px solid orange;
+}
+
+body {
+    background-color: aquamarine;
+    border: 10px solid maroon;
+}
+
+footer {
+    background-color: brown;
+    height: 100px;
+    border: 10px solid whitesmoke;
+
+}
