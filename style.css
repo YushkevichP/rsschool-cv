@@ -52,5 +52,20 @@ footer {
 
 .nav_item {
     padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
 }
 
+html {
+    scroll-behavior:smooth;
+  }
+
+
+  .contact-list {
+    list-style-type: none;
+  }
+
+  .section-main {
+    margin: 10px 10px;
+  }
