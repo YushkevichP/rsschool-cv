@@ -1,38 +1,45 @@
+@font-face {
+    font-family: Beiruti;
+    src: url("assets/fonts/Beiruti/Beiruti-VariableFont_wght.ttf");
+}
+
 h1 {
-    background-color: lightgrey;
-    padding: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 2px;
 }
 
 img {
-    width: 410px;
-    height: 410px;
+    width: 160px;
+    height: 160px;
 }
 
 header {
-    background-color: rgb(95, 226, 43);
+    background-color: rgba(134, 132, 0, 0.708);
     height: 50px;
-    border: 5px solid rgb(2, 90, 38);
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 main {
     flex: 1;
-    background-color: yellow;
-    border: 10px solid orange;
 }
 
 body {
+    font-family: Beiruti;
+    font-size: larger;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: aquamarine;
-    border: 10px solid maroon;
-
+    background-color: rgb(240, 249, 225);
 }
 
 footer {
-    background-color: brown;
+    background-color: rgba(134, 132, 0, 0.708);
     border: 10px solid whitesmoke;
     height: 110px;
 }
@@ -41,31 +48,75 @@ footer {
     height: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    
+
 }
 
 .nav-header {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 .nav_item {
     padding: 10px;
     text-decoration: none;
+    color: rgb(235, 239, 199);
+    font-size: 30px;
+    font-style: oblique;
+}
+
+a {
+    text-decoration: none;
     color: black;
-    font-size: larger;
+}
+
+a.my-project {
+    text-decoration: underline;
+    color: blue;
 }
 
 html {
-    scroll-behavior:smooth;
-  }
+    scroll-behavior: smooth;
+}
 
 
-  .contact-list {
+.contact-list {
     list-style-type: none;
-  }
+}
 
-  .section-main {
+.section-main {
     margin: 10px 10px;
-  }
+}
+
+.photo-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+hr {
+    opacity: .5;
+    color: rgb(175, 172, 172);
+}
+
+hr.part {
+    border: none;
+    margin: 10px 0;
+    border-top: 4px solid;
+    border-radius: 10px;
+}
+
+hr.hr-name {
+    border: none;
+    margin: 10px;
+    border-top: 10px solid;
+    border-radius: 10px;
+
+}
+
+hr.thin {
+    border: none;
+    margin: 0 0 0 0;
+    border-top: 1px solid;
+}
