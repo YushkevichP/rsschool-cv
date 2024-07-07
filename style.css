@@ -39,9 +39,18 @@ body {
 }
 
 footer {
+    font-size: larger;
     background-color: rgba(134, 132, 0, 0.708);
-    border: 10px solid whitesmoke;
-    height: 110px;
+    
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.section-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 .container {
@@ -119,4 +128,10 @@ hr.thin {
     border: none;
     margin: 0 0 0 0;
     border-top: 1px solid;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
 }
