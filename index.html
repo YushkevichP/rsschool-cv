@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../rsschool-cv/assets/Icon/myicon.ico">
+    <link rel="stylesheet" href="">
+
+<body>
+
+    <header class="main-header">
+        <div class="container container-header">
+            <nav class="nav-header">
+                <a class="nav_item" href="#Contacts">Contacts</a>
+                <a class="nav_item" href="#aboutme">About me</a>
+                <a class="nav_item" href="#Skills">Skills</a>
+                <a class="nav_item" href="#Experience">Experience</a>
+                <a class="nav_item" href="#Education">Education</a>
+                <a class="nav_item" href="#Languages">Languages</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main">
+
+        <section class="section-main photo-name">
+
+            <img src="./assets/img/avatar-svgrepo-com.svg" alt="My photo" />
+
+            <h1>Pavel Yushkevich</h1>
+
+        </section>
+        <hr class="hr-name">
+        <section class="section-main" id="Contacts">
+            <h2>Contacts</h2>
+            <hr class="thin">
+            <ul class="contact-list">
+                <li class="contact-item"><a href="tel:+375375375375">&phone; +375375375375</a></li>
+                <li class="contact-item"><a href="mailto:7146514@gmail.com">&#9993; 7146514@gmail.com</a></li>
+            </ul>
+            <hr class="part">
+        </section>
+
+        <section class="section-main">
+            <h2 id="aboutme">About me</h2>
+            <hr class="thin">
+            <p>
+                I am a driven and motivated professional,
+                always striving to learn new things and improve my skills. <br>
+                I have a keen interest in Android development and frontend development,
+                constantly updating my knowledge in these areas.<br>
+                My goal is to create high-quality,
+                user-oriented applications using modern technologies and approaches.
+            </p>
+            <hr class="part">
+        </section>
+
+        <section class="section-main" id="Skills">
+            <h2>Skills</h2>
+            <hr class="thin">
+            <ul>
+                <li>Basic knowledge of Java</li>
+                <li>Knowledge of Kotlin</li>
+                <li>Android development</li>
+            </ul>
+            <hr class="part">
+        </section>
+
+        <section class="section-main" id="Experience">
+            <h2>Experience</h2>
+            <hr class="thin">
+
+            <p>
+                I created an educational app on Android where you can learn about the characters from the cartoon "Rick
+                and Morty."<br>
+                You can find it <a href="https://github.com/YushkevichP/RickMorty" class="my-project">here</a>.
+            </p>
+            <pre><code>
+                private val personAdapter by lazy(LazyThreadSafetyMode.NONE) {
+                    ItemAdapter(requireContext()) { person ->
+                        findNavController().navigate(
+                            ListFragmentDirections.toDetails(person.id)
+                        )
+                    }
+                }
+                            </code></pre>
+            <hr class="part">
+        </section>
+
+        <section class="section-main" id="Education">
+            <h2>Education</h2>
+            <hr class="thin">
+            <ul>
+                <li>BSU IBMT</li>
+                <li>IT Academy Courses:
+                    <ul>
+                        <li>Java Fundamentals</li>
+                        <li>Android Development</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr class="part">
+        </section>
+
+
+        <section class="section-main" id="Languages">
+            <h2>Languages</h2>
+            <hr class="thin">
+            <ul>
+                <li>English (B1)</li>
+                <li>Polish (A2)</li>
+            </ul>
+            <hr class="part">
+        </section>
+
+
+    </main>
+
+    <footer class="main-footer">
+        <section class="section-footer">
+            <p>
+                <a href="https://github.com/YushkevichP" class="a-footer">Pavel</a> 2024 &copy
+            </p>
+
+            <a href="https://rs.school/courses/javascript-ru">
+                <img class="logo"
+                    src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/34c6c5cbc96ec26fcfdb022d1a6f3b2641f0110c/tasks/cv/rs-school-logo.svg"
+                    alt="logo rsschool">
+            </a>
+
+        </section>
+    </footer>
+
+</body>
+
+</html>
